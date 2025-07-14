@@ -1,0 +1,13 @@
+.news-heading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  font-size: 24px; /* Mobile default */
+  margin-bottom: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .news-heading {
+    font-size: 48px; /* Medium screens and up */
+  }
+}
